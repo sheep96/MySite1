@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Helvetica";
+	font-weight: bold;
+	font-size: 120%;
+}
+
+p {
+	height: 350px;
+    padding: 8px;
+    
+}
+
+
+@media (min-width: 992px) {
+	.desktop-4 {
+		width: 33.3%;
+		float: left;
+	}
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+	.tablet-6 {
+		width: 50%;
+		float: left;
+	}
+	.tablet-12 {
+		width: 100%;
+		float: left;
+	}
+}
+
+@media (max-width: 767px) {
+	.mobile-12 {
+		width: 100%;
+		float: left;
+	}
+}
+
+#pChicken {
+	background-color: blue;
+}
+
+#pBeef {
+	background-color: red;
+}
+
+#pSushi {
+	background-color: yellow;
+}
